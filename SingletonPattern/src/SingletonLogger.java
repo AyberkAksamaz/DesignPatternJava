@@ -21,10 +21,10 @@ public class SingletonLogger {
 	}
 	
 	public void logMessageStart() {
-		System.out.println("Start message is logged");
+		System.out.println("Start message is logged!");
 	}
 	
 	public void logMessageStop() {
-		System.out.println("Stop message is logged");
+		System.out.println("Stop message is logged!");
 	}
 }
