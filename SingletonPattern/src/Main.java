@@ -5,7 +5,7 @@ public class Main {
 		SingletonLogger singletonLogger = SingletonLogger.getInstance();
 		singletonLogger.logMessageStart();
 		singletonLogger.logMessageStop();
-
+		singletonLogger.logMessageStart();
 	}
 
 }
