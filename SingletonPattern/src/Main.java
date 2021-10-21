@@ -6,6 +6,11 @@ public class Main {
 		singletonLogger.logMessageStart();
 		singletonLogger.logMessageStop();
 		singletonLogger.logMessageStart();
+		
+		SingletonLogger singletonLogger2 = SingletonLogger.getInstance();
+		singletonLogger2.logMessageStart();
+		singletonLogger2.logMessageStop();
+		singletonLogger2.logMessageStart();
 	}
 
 }
